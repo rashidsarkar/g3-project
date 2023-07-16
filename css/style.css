@@ -68,6 +68,36 @@ nav li a{
     width: 100%;
 
 }
+
+/* main style  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team_container{
+    display: flex;
+    align-items: center;
+}
+.team_img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.team_content{
+    padding: 0px 70px;
+}
+.team_title{
+    font-size: 2.8rem;
+
+}
+.team_title .quick{
+    color: var(--dark-03, #727272);
+    font-weight: 500;
+}
+.team_title .feacher{
+    color: #FF900E;
+    font-weight: 700;
+}
 /* responsive style  */
 @media screen and (max-width:576px) {
     header{
